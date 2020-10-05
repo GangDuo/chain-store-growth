@@ -112,8 +112,8 @@ text.label {
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .form-control {
@@ -131,3 +131,14 @@ text.label {
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
+
+#chartDiv {
+    width:100%;
+    height: 600px;
+    background: #92b3e8;
+}
+
+.brand-name {
+    background: var(--brand-main-color, white);
+}
+  
